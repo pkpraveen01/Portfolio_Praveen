@@ -1,0 +1,24 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0fdfa; /* pale teal background */
+  color: #064e3b; /* dark teal text */
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: #0f766e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #134e4a;
+}

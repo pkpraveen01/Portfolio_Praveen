@@ -1,0 +1,36 @@
+.skills-section {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color: #f0fdfa; /* light teal-ish background */
+}
+
+.skills-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #14b8a6; /* teal-400 */
+  margin-bottom: 1.5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-badge {
+  background-color: #334155; /* gray-700 */
+  color: #e0f2fe; /* lighter text */
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* pill shape */
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #0f766e; /* teal-700 */
+  color: white;
+}
