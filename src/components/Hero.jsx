@@ -8,7 +8,7 @@ const Hero = () => {
       </h1>
       <p className="hero-subtitle">MERN Stack Developer | Fresher</p>
       <a
-        href="https://drive.google.com/uc?export=download&id=1XV6RQ52z8OabUCqCHGgCVvCQjIMszYyg"
+        href="https://drive.google.com/file/d/1fMiYrfmMClwWu1siemYki8l_P0wjkZa1/view"
         target="_blank"
         rel="noopener noreferrer"
         className="hero-button"
