@@ -50,8 +50,24 @@ const Projects = () => {
         <div className="project-card">
           <h3 className="project-title">Surya Vision – Electronics Mall</h3>
           <p className="project-description">
-            An e-commerce platform for electronic products. Displays categorized items (Mobiles, TVs, ACs, etc.), with dynamic filtering and cart functionality. [Live version coming soon]
+            A full-stack e-commerce platform for electronic products with categorized listings (Mobiles, TVs, ACs, etc.), dynamic filtering, cart system, Stripe payments, and role-based admin control.
           </p>
+          <div className="project-links">
+            <a
+              href="https://surya-vision.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              User Dashboard
+            </a>
+            <a
+              href="https://surya-vision-admin.onrender.com/admin-login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Admin Dashboard
+            </a>
+          </div>
         </div>
       </div>
     </section>
